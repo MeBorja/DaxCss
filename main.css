@@ -1,0 +1,63 @@
+
+.one-card {
+    justify-content: center;
+    background-color: grey;
+    text-align: center;
+    border-radius: 2%;
+    width: 20%;
+    margin: 1%;
+
+}
+.two-card {
+    justify-content: center;
+    background-color: grey;
+    display: block;
+    text-align: center;
+    border-radius: 2%;
+    width: 500px;
+    margin: auto;
+
+}
+.underText {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.imgs {
+    margin-top: 2%;
+    border-radius: 4%;
+    width: 100%;
+}
+
+.marginInside {
+    margin: 5%;
+}
+.marginInsid {
+    margin: 5%;
+}
+
+.href {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  @media (max-width: 900px) {
+    .center {
+      flex-direction: column;
+    }
+    .one-card {
+        width: 50%;
+        margin-left: 25%;
+    }
+  }
